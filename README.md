@@ -1,6 +1,12 @@
 # কৃষক ও জমি ব্যবস্থাপনা (Farmer & Land Management App)
 
 A comprehensive Flutter application for managing agricultural activities, land data, crop tracking, and farm analytics with Bengali language support.
+<img width="722" height="1620" alt="Screenshot 2025-09-03 080840" src="https://github.com/user-attachments/assets/8e6f1cea-21a1-4fcb-85b1-9184556038b0" />
+<img width="735" height="1622" alt="Screenshot 2025-09-03 080824" src="https://github.com/user-attachments/assets/909b5147-db6d-4f64-b820-74f694ffdc6b" />
+<img width="734" height="1631" alt="Screenshot 2025-09-03 080753" src="https://github.com/user-attachments/assets/ec65dff8-657d-42d9-ad8a-0d0f8a4ca47e" />
+<img width="877" height="1938" alt="Screenshot 2025-09-03 072331" src="https://github.com/user-attachments/assets/b32ee35e-bc7e-4336-a726-b2b7d8945d9d" />
+<img width="712" height="1619" alt="Screenshot 2025-09-03 080949" src="https://github.com/user-attachments/assets/64a5cd9f-d839-4327-9c23-784190f2b04d" />
+<img width="723" height="1617" alt="Screenshot 2025-09-03 080917" src="https://github.com/user-attachments/assets/1b7dc240-6676-40f9-b089-1e29a22a1bec" />
 
 ## 🌟 Features
 
