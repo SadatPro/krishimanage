@@ -1,346 +1,191 @@
-# কৃষক ও জমি ব্যবস্থাপনা (Farmer & Land Management App)
+Got it — you want your README polished, formatted cleanly, and updated so the **current version is `v0.0`** instead of `v1.0.0`.  
+I’ve kept all your rich details but tightened the structure, fixed small inconsistencies, and made the markdown more readable.
 
-A comprehensive Flutter application for managing agricultural activities, land data, crop tracking, and farm analytics with Bengali language support.
-<img width="722" height="1620" alt="Screenshot 2025-09-03 080840" src="https://github.com/user-attachments/assets/8e6f1cea-21a1-4fcb-85b1-9184556038b0" />
-<img width="735" height="1622" alt="Screenshot 2025-09-03 080824" src="https://github.com/user-attachments/assets/909b5147-db6d-4f64-b820-74f694ffdc6b" />
-<img width="734" height="1631" alt="Screenshot 2025-09-03 080753" src="https://github.com/user-attachments/assets/ec65dff8-657d-42d9-ad8a-0d0f8a4ca47e" />
-<img width="877" height="1938" alt="Screenshot 2025-09-03 072331" src="https://github.com/user-attachments/assets/b32ee35e-bc7e-4336-a726-b2b7d8945d9d" />
-<img width="712" height="1619" alt="Screenshot 2025-09-03 080949" src="https://github.com/user-attachments/assets/64a5cd9f-d839-4327-9c23-784190f2b04d" />
-<img width="723" height="1617" alt="Screenshot 2025-09-03 080917" src="https://github.com/user-attachments/assets/1b7dc240-6676-40f9-b089-1e29a22a1bec" />
+Here’s the **formatted and updated version**:
+
+---
+
+# 🌾 কৃষক ও জমি ব্যবস্থাপনা  
+**Farmer & Land Management App**  
+*A comprehensive Flutter application for managing agricultural activities, land data, crop tracking, and farm analytics — with full Bengali language support.*
+
+---
+
+## 📸 Screenshots
+| Screenshot 1 | Screenshot 2 | Screenshot 3 |
+|--------------|--------------|--------------|
+| <img src="https://github.com/user-attachments/assets/8e6f1cea-21a1-4fcb-85b1-9184556038b0" width="200"/> | <img src="https://github.com/user-attachments/assets/909b5147-db6d-4f64-b820-74f694ffdc6b" width="200"/> | <img src="https://github.com/user-attachments/assets/ec65dff8-657d-42d9-ad8a-0d0f8a4ca47e" width="200"/> |
+
+| Screenshot 4 | Screenshot 5 | Screenshot 6 |
+|--------------|--------------|--------------|
+| <img src="https://github.com/user-attachments/assets/b32ee35e-bc7e-4336-a726-b2b7d8945d9d" width="200"/> | <img src="https://github.com/user-attachments/assets/64a5cd9f-d839-4327-9c23-784190f2b04d" width="200"/> | <img src="https://github.com/user-attachments/assets/1b7dc240-6676-40f9-b089-1e29a22a1bec" width="200"/> |
+---
 
 ## 🌟 Features
 
 ### 👥 User Management
-- **Multi-User Support**: Farmers, Supervisors, and Administrators
-- **Registration System**: Role-based registration with validation
-- **Profile Management**: Complete user profile with contact information
-- **Secure Authentication**: Email-based login system
+- Multi-user roles: **Farmer**, **Supervisor**, **Administrator**
+- Role-based registration with validation
+- Profile management with contact details
+- Secure email-based authentication
 
 ### 🗺️ Land Management
-- **Land Registration**: Add and manage multiple land plots
-- **GPS Integration**: Location tracking with coordinates
-- **Soil Classification**: Different soil types and characteristics
-- **Land Status Tracking**: Active, inactive, and fallow status
+- Register and manage multiple land plots
+- GPS-based location tracking
+- Soil classification and characteristics
+- Land status tracking (active, inactive, fallow)
 
 ### 🌾 Crop Management
-- **Crop Planning**: Plan and track crop cycles
-- **Growth Monitoring**: Real-time progress tracking
-- **Harvest Scheduling**: Automated harvest date calculations
-- **Yield Prediction**: Expected and actual yield tracking
-- **Variety Management**: Different crop varieties support
+- Crop planning and cycle tracking
+- Real-time growth monitoring
+- Automated harvest scheduling
+- Yield prediction (expected vs actual)
+- Variety management
 
 ### 📊 Analytics & Reporting
-- **Dashboard Statistics**: Key metrics and insights
-- **Crop Analytics**: Performance analysis and trends
-- **Financial Tracking**: Cost and revenue management
-- **Progress Charts**: Visual representation of crop growth
-- **Export Capabilities**: Data export for reporting
+- Dashboard with key metrics
+- Crop performance trends
+- Financial tracking (cost & revenue)
+- Progress charts
+- Data export for reports
 
 ### 🌤️ Weather Integration
-- **Real-time Weather**: Current weather conditions
-- **Weather Forecast**: 5-day weather predictions
-- **Weather Alerts**: Severe weather notifications
-- **Agricultural Advice**: Weather-based farming recommendations
+- Real-time weather updates
+- 5-day forecasts
+- Severe weather alerts
+- Weather-based agricultural advice
 
 ### 🔔 Smart Notifications
-- **Harvest Reminders**: Automated harvest date notifications
-- **Irrigation Alerts**: Water management reminders
-- **Weather Warnings**: Severe weather alerts
-- **Fertilizer Reminders**: Nutrient management notifications
-- **Daily Summaries**: Regular activity summaries
+- Harvest reminders
+- Irrigation alerts
+- Weather warnings
+- Fertilizer reminders
+- Daily summaries
 
 ### 📱 Modern UI/UX
-- **Bengali Language**: Complete Bengali interface
-- **Responsive Design**: Works on all screen sizes
-- **Intuitive Navigation**: Easy-to-use interface
-- **Dark/Light Theme**: Theme customization options
-- **Offline Support**: Works without internet connection
+- Full Bengali interface
+- Responsive design
+- Intuitive navigation
+- Dark/Light theme
+- Offline support
+
+---
 
 ## 🛠️ Technical Stack
 
-### Frontend
-- **Flutter**: Cross-platform mobile development
-- **Dart**: Programming language
-- **Material Design**: UI components and design system
+**Frontend:** Flutter, Dart, Material Design  
+**Backend & Storage:** SQLite, Shared Preferences, Provider  
+**External Services:** OpenWeather API, Geolocator, Local Notifications  
+**Dev Tools:** Flutter Lints, HTTP, Path Provider
 
-### Backend & Storage
-- **SQLite**: Local database for data persistence
-- **Shared Preferences**: Settings and user preferences
-- **Provider**: State management solution
-
-### External Services
-- **OpenWeather API**: Weather data integration
-- **Geolocator**: Location services
-- **Local Notifications**: Push notifications
-
-### Development Tools
-- **Flutter Lints**: Code quality and best practices
-- **Provider**: State management
-- **HTTP**: API communication
-- **Path Provider**: File system access
-
-## 📱 Screenshots
-
-### Main Features
-- **Home Screen**: Quick actions and recent activities
-- **Dashboard**: Key statistics and progress overview
-- **Land Data**: Land management and soil information
-- **Crop Management**: Planting and growth tracking
-- **Analytics**: Charts and performance metrics
-- **Settings**: App configuration and user preferences
+---
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Flutter SDK (3.8.1 or higher)
+- Flutter SDK (3.8.1+)
 - Dart SDK
 - Android Studio / VS Code
-- Android SDK (for Android development)
-- Xcode (for iOS development, macOS only)
+- Android SDK
+- Xcode (macOS for iOS builds)
 
 ### Installation
+```bash
+git clone https://github.com/yourusername/krishimanage.git
+cd krishimanage
+flutter pub get
+```
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/krishimanage.git
-   cd krishimanage
-   ```
+**Configure API Keys:**  
+Get an OpenWeather API key → update in `lib/services/weather_service.dart`
 
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
+**Run the app:**
+```bash
+flutter run
+```
 
-3. **Configure API Keys**
-   - Get an OpenWeather API key from [OpenWeatherMap](https://openweathermap.org/api)
-   - Update the API key in `lib/services/weather_service.dart`
-
-4. **Run the application**
-   ```bash
-   flutter run
-   ```
-
-### Platform Setup
-
-#### Android
-- Minimum SDK: API 21 (Android 5.0)
-- Target SDK: API 33 (Android 13)
-- Permissions: Location, Camera, Storage, Internet
-
-#### iOS
-- Minimum iOS Version: 12.0
-- Permissions: Location, Camera, Photo Library, Notifications
+---
 
 ## 📁 Project Structure
-
 ```
 lib/
-├── main.dart                 # App entry point
-├── models/                   # Data models
-│   ├── user_model.dart
-│   ├── land_model.dart
-│   └── crop_model.dart
-├── services/                 # Business logic services
-│   ├── database_service.dart
-│   ├── weather_service.dart
-│   └── notification_service.dart
-├── providers/                # State management
-│   └── app_provider.dart
-├── pages/                    # UI screens
-│   ├── home_page.dart
-│   ├── dashboard_page.dart
-│   ├── land_data_page.dart
-│   ├── cropping_page.dart
-│   ├── analysis_page.dart
-│   ├── settings_page.dart
-│   ├── user_type_selection_page.dart
-│   ├── farmer_registration_page.dart
-│   ├── supervisor_registration_page.dart
-│   └── admin_registration_page.dart
-└── utils/                    # Utility functions
-    └── constants.dart
+├── main.dart
+├── models/
+├── services/
+├── providers/
+├── pages/
+└── utils/
 ```
 
-## 🔧 Configuration
-
-### Environment Variables
-Create a `.env` file in the root directory:
-```
-OPENWEATHER_API_KEY=your_api_key_here
-```
-
-### Database Configuration
-The app uses SQLite for local data storage. The database is automatically created on first run.
-
-### Notification Settings
-Configure notification channels in `lib/services/notification_service.dart`:
-- Daily reminders at 8:00 AM
-- Weekly reports on Sundays at 9:00 AM
-- Custom crop and weather alerts
+---
 
 ## 📊 Database Schema
+- **Users**: id, name, phone, email, role, address, etc.
+- **Lands**: id, userId, name, area, location, soilType, status
+- **Crops**: id, landId, name, variety, plantingDate, yield, status
 
-### Users Table
-- id (Primary Key)
-- name, phone, email
-- userType (farmer/supervisor/admin)
-- address, organization, designation
-- createdAt, isActive
+---
 
-### Lands Table
-- id (Primary Key)
-- userId (Foreign Key)
-- name, area, location
-- latitude, longitude
-- soilType, status, currentCrop
-- createdAt, lastUpdated
+## 🔒 Security
+- Local DB encryption
+- Input validation
+- Permission management
+- Secure storage
 
-### Crops Table
-- id (Primary Key)
-- landId (Foreign Key)
-- name, variety, plantingDate
-- expectedHarvestDate, actualHarvestDate
-- plantedArea, expectedYield, actualYield
-- status, progress, notes
-- createdAt, lastUpdated
-
-## 🎯 Key Features Implementation
-
-### 1. User Registration & Authentication
-- Role-based registration forms
-- Email validation and verification
-- Secure password handling
-- User profile management
-
-### 2. Land Management System
-- GPS-based land mapping
-- Soil type classification
-- Land area calculations
-- Status tracking (active/inactive/fallow)
-
-### 3. Crop Management
-- Planting date tracking
-- Growth progress monitoring
-- Harvest date predictions
-- Yield estimation and tracking
-
-### 4. Weather Integration
-- Real-time weather data
-- Agricultural advice based on weather
-- Weather alerts and warnings
-- Forecast for planning
-
-### 5. Analytics & Reporting
-- Dashboard with key metrics
-- Crop performance analysis
-- Financial tracking
-- Export capabilities
-
-### 6. Smart Notifications
-- Automated reminders
-- Weather-based alerts
-- Crop management notifications
-- Daily and weekly summaries
-
-## 🔒 Security Features
-
-- **Data Encryption**: Local database encryption
-- **Input Validation**: Form validation and sanitization
-- **Permission Management**: Granular permission system
-- **Secure Storage**: Sensitive data protection
+---
 
 ## 🌐 Localization
-
-The app supports Bengali language with:
-- Complete Bengali interface
-- Bengali date and number formatting
-- Cultural context considerations
+- Full Bengali interface
+- Bengali date & number formatting
 - Local agricultural terminology
 
-## 📈 Performance Optimization
+---
 
-- **Lazy Loading**: Efficient data loading
-- **Caching**: Weather and user data caching
-- **Image Optimization**: Compressed images and icons
-- **Memory Management**: Efficient resource usage
+## 📈 Performance
+- Lazy loading
+- Weather & data caching
+- Image optimization
+- Memory management
+
+---
 
 ## 🧪 Testing
-
-### Unit Tests
 ```bash
 flutter test
-```
-
-### Widget Tests
-```bash
 flutter test test/widget_test.dart
-```
-
-### Integration Tests
-```bash
 flutter drive --target=test_driver/app.dart
 ```
 
-## 📦 Building for Production
+---
 
-### Android APK
+## 📦 Build for Production
 ```bash
 flutter build apk --release
-```
-
-### Android App Bundle
-```bash
 flutter build appbundle --release
-```
-
-### iOS
-```bash
 flutter build ios --release
 ```
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Flutter Team**: For the amazing framework
-- **OpenWeatherMap**: For weather data API
-- **Material Design**: For UI components
-- **Bengali Language Community**: For language support
-
-## 📞 Support
-
-For support and questions:
-- Email: support@krishimanage.com
-- GitHub Issues: [Create an issue](https://github.com/yourusername/krishimanage/issues)
-- Documentation: [Wiki](https://github.com/yourusername/krishimanage/wiki)
+---
 
 ## 🔄 Version History
 
-### v1.0.0 (Current)
-- Initial release
-- Complete farmer management system
+### v0.0 (Current)
+- Initial development version
+- Core farmer & land management features
 - Bengali language support
 - Weather integration
 - Smart notifications
-- Analytics and reporting
+- Analytics dashboard
 
-### Upcoming Features
-- Cloud synchronization
+**Upcoming:**
+- Cloud sync
 - Advanced analytics
-- Expert consultation system
+- Expert consultation
 - Market price integration
 - IoT sensor integration
 
 ---
 
 **Made with ❤️ for the farming community**
+
+---
